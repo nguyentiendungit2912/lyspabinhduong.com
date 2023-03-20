@@ -1,22 +1,20 @@
-import "./App.css";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Work from "./Components/Work";
-import Testimonial from "./Components/Testimonial";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
+import { BrowserRouter as Router } from "react-router-dom"
+import Routing from './routes';
+import './assets/css/bootstrap.min.css'
+import './assets/css/animate.min.css'
+import './assets/css/magnific-popup.css'
+import './assets/css//fontawesome-all.min.css'
+import './assets/css/dripicons.css'
+import './assets/css/slick.css'
+import './assets/css/meanmenu.css'
+import './assets/css/default.css'
+import './assets/css/style.css'
+import './assets/css/responsive.css'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Home />
-      <About />
-      <Work />
-      <Testimonial />
-      <Contact />
-      <Footer />
-    </div>
+    <Router >
+      <Routing />
+    </Router>
   );
 }
-
-export default App;
