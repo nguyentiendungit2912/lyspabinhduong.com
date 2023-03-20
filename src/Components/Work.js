@@ -7,28 +7,27 @@ const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Massage",
+      text: "Ly spa cung cấp các dịch vụ massage toàn thân và mặt, giúp giảm stress và mệt mỏi, giúp thư giãn tinh thần, cải thiện tuần hoàn máu, tăng cường sức khỏe và làn da.",
     },
     {
       image: ChooseMeals,
-      title: "Choose How Often",
+      title: "Gội đầu",
       text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
     },
     {
       image: DeliveryMeals,
-      title: "Fast Deliveries",
+      title: "Dịch vụ khác",
       text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
-        <h1 className="primary-heading">How It Works</h1>
+        <p className="primary-subheading">Dịch Vụ</p>
+        <h1 className="primary-heading">Ly Spa</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Cung cấp đầy đủ các dịch vụ về chăm sóc sắc đẹp
         </p>
       </div>
       <div className="work-section-bottom">

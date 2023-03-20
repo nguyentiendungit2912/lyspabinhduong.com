@@ -18,12 +18,10 @@ const About = () => {
           Food Is An Important Part Of A Balanced Diet
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Bên cạnh đó, Ly spa còn là địa chỉ uy tín cho các dịch vụ phun xăm thẩm mỹ, đảm bảo an toàn và hiệu quả. Đội ngũ chuyên gia phun xăm tại Ly spa sẽ giúp bạn tạo nên những đường nét tinh xảo, phù hợp với từng nhu cầu và phong cách cá nhân của mỗi khách hàng.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+          Với mục tiêu mang đến sự hài lòng cho khách hàng, Ly spa cam kết sử dụng các sản phẩm và thiết bị chất lượng cao, đảm bảo an toàn và hiệu quả cho quá trình điều trị và phun xăm.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>

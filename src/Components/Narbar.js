@@ -20,25 +20,25 @@ const Navbar = ({ variant, ...props }) => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
-      text: "Home",
+      text: "Trang chủ",
       icon: <HomeIcon />,
     },
     {
-      text: "About",
+      text: "Về chúng tôi",
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "Dịch vụ",
       icon: <CommentRoundedIcon />,
     },
     {
-      text: "Contact",
+      text: "Liên hệ",
       icon: <PhoneRoundedIcon />,
     },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
+    // {
+    //   text: "Cart",
+    //   icon: <ShoppingCartRoundedIcon />,
+    // },
   ];
   return (
     <nav>
@@ -46,14 +46,14 @@ const Navbar = ({ variant, ...props }) => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
-        <a href="">
+        <a href="">Trang chủ</a>
+        <a href="">Về chúng tôi</a>
+        <a href="">Dịch vụ</a>
+        <a href="">Liên hệ</a>
+        {/* <a href="">
           <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Bookings Now</button>
+        </a> */}
+        <button className="primary-button">Đặt lịch ngay</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineMenu onClick={() => setOpenMenu(true)} />

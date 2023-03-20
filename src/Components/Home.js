@@ -49,14 +49,13 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+            Ly spa chuyên điều trị da và phun xăm
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+          Ly spa là một trung tâm chăm sóc sức khỏe và làm đẹp chuyên nghiệp, tọa lạc tại trung tâm thành phố Bình Dương. Với đội ngũ chuyên gia và kỹ thuật viên giàu kinh nghiệm, Ly spa cung cấp các dịch vụ chăm sóc da chất lượng cao như điều trị mụn, tái tạo da, trẻ hóa da, và các liệu trình chăm sóc da khác.
           </p>
           <button className="secondary-button" onClick={toggleForm}>
-            Order Now <FiArrowRight />{" "}
+            Đặt lịch ngay <FiArrowRight />{" "}
           </button>
           {isOpen && (
             <div className="popup">
@@ -78,9 +77,13 @@ const Home = () => {
                 <div>
                   <label htmlFor="service" class="required">Lựa chọn dịch vụ</label>
                   <select id="service" name="service" required >
-                    <option value="service1">Dịch vụ 1</option>
-                    <option value="service2">Dịch vụ 2</option>
-                    <option value="service3">Dịch vụ 3</option>
+                    <option value="service1">Massage body, massage mặt</option>
+                    <option value="service2">Gội đầu thường và dưỡng sinh</option>
+                    <option value="service3">Điều trị mụn, nám, tàn nhang, sẹo rỗ, lăn kim</option>
+                    <option value="service2">Điều trị căng bóng da, tắm trắng</option>
+                    <option value="service2">Chăm sóc quầng thâm mắt</option>
+                    <option value="service2">Phun môi collagen, phun mày, phun mi</option>
+                    <option value="service2">Cây collagen tươi, tẩy nốt ruồi, triệt lông</option>
                   </select>
                 </div>
                 <div>
