@@ -45,8 +45,8 @@ const Gallery = () => {
                 data-animation="fadeInDown"
                 data-delay=".4s"
               >
-                <h5>Our Gallery</h5>
-                <h2>See Our Portfolio</h2>
+                <h5>THƯ VIỆN HÌNH ẢNH</h5>
+                <h2>Trải nghiệm khách hàng 5 sao</h2>
               </div>
             </div>
           </div>

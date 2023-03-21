@@ -29,12 +29,12 @@ const Main = () => {
                   <div className="col-lg-6 col-md-6">
                     <div className="slider-content s-slider-content mt-20">
                       <h5 data-animation="fadeInUp" data-delay=".4s">
-                        Spa & Welness Salon{" "}
+                        LY SPA & CHĂM SÓC SẮC ĐẸP{" "}
                       </h5>
                       <h2 data-animation="fadeInUp" data-delay=".4s">
-                        Make Your Skin
+                        LÀN DA CỦA BẠN
                         <br />
-                        Shine & Glowing
+                        TỎA SÁNG RỰC RỠ
                       </h2>
                       <p data-animation="fadeInUp" data-delay=".6s">
                         Donec vitae libero non enim placerat eleifend aliquam
@@ -43,11 +43,11 @@ const Main = () => {
                       </p>
 
                       <div className="slider-btn mt-30">
-                        <Link to="/contact" className="btn ss-btn mr-15">
+                        {/* <Link to="/contact" className="btn ss-btn mr-15">
                           Discover More
-                        </Link>
+                        </Link> */}
                         <Link to="/contact" className="btn ss-btn active">
-                          Book Now
+                          Đặt lịch hẹn ngay
                         </Link>
                       </div>
                     </div>
@@ -65,8 +65,8 @@ const Main = () => {
         <Product />
         <Pricing />
         <Gallery />
-        <Testimonial />
-        <Blog />
+        {/* <Testimonial /> */}
+        {/* <Blog /> */}
       </main>
     </>
   );

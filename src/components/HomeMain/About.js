@@ -25,8 +25,8 @@ const About = () => {
               >
                 <img src={Img} alt="img" />
                 <div className="about-text second-about">
-                  <span>15</span>
-                  <p>Years of Experience</p>
+                  <span>10</span>
+                  <p>Năm Kinh Nghiệm</p>
                 </div>
               </div>
             </div>
@@ -37,8 +37,8 @@ const About = () => {
                 data-delay=".4s"
               >
                 <div className="about-title second-title pb-25">
-                  <h5>About Us</h5>
-                  <h2>Best Way To Care Your Skin</h2>
+                  <h5>GIỚI THIỆU</h5>
+                  <h2>Cách tốt nhất để chăm sóc làn da của bạn</h2>
                 </div>
                 <p>
                   Suspendisse et porttitor leo. Sed porttitor dui sit amet

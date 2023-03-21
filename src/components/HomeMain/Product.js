@@ -95,8 +95,8 @@ const Product = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title center-align mb-50 text-center">
-                <h5>Our Products</h5>
-                <h2>Best For Skin Care</h2>
+                <h5>SẢN PHẨM CỦA CHÚNG TÔI</h5>
+                <h2>Tốt nhất để chăm sóc da</h2>
               </div>
             </div>
           </div>
@@ -104,20 +104,17 @@ const Product = () => {
             <div className="col-lg-4 col-md-12">
               <div className="product mb-40">
                 <div className="product__img">
-                  <Link to="/shop-details">
+                  <Link to="">
                     <img src={Img1} alt="" />
                   </Link>
-                  <div className="product-action text-center">
-                    <Link to="/shop-details">Add Cart</Link>
-                  </div>
                 </div>
                 <div className="product__content pt-30">
                   <h4 className="pro-title">
-                    <Link to="/shop-details">Balancing Gel</Link>
+                    <Link to=""> Gội đầu dưỡng sinh</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">$20</span>
-                    <span>$15</span>
+                    <span className="old-price">500.000 VND</span>
+                    <span>199.000 VND</span>
                   </div>
                 </div>
               </div>
@@ -125,20 +122,17 @@ const Product = () => {
             <div className="col-lg-4 col-md-12">
               <div className="product mb-40">
                 <div className="product__img">
-                  <Link to="/shop-details">
+                  <Link to="">
                     <img src={Img2} alt="" />
                   </Link>
-                  <div className="product-action text-center">
-                    <Link to="/shop-details">Add Cart</Link>
-                  </div>
                 </div>
                 <div className="product__content pt-30">
                   <h4 className="pro-title">
-                    <Link to="/shop-details">Beauty Cream</Link>
+                    <Link to="">Massage body</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">$20</span>
-                    <span>$15</span>
+                    <span className="old-price">500.000 VND</span>
+                    <span>199.000 VND</span>
                   </div>
                 </div>
               </div>
@@ -146,20 +140,17 @@ const Product = () => {
             <div className="col-lg-4 col-md-12">
               <div className="product mb-40">
                 <div className="product__img">
-                  <Link to="/shop-details">
+                  <Link to="">
                     <img src={Img3} alt="" />
                   </Link>
-                  <div className="product-action text-center">
-                    <Link to="/shop-details">Add Cart</Link>
-                  </div>
                 </div>
                 <div className="product__content pt-30">
                   <h4 className="pro-title">
-                    <Link to="/shop-details">Dry Skin</Link>
+                    <Link to="">Điều trị mụn</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">$20</span>
-                    <span>$15</span>
+                    <span className="old-price">500.000 VND</span>
+                    <span>199.000 VND</span>
                   </div>
                 </div>
               </div>
@@ -167,20 +158,17 @@ const Product = () => {
             <div className="col-lg-4 col-md-12">
               <div className="product mb-40">
                 <div className="product__img">
-                  <Link to="/shop-details">
+                  <Link to="">
                     <img src={Img4} alt="" />
                   </Link>
-                  <div className="product-action text-center">
-                    <Link to="/shop-details">Add Cart</Link>
-                  </div>
                 </div>
                 <div className="product__content pt-30">
                   <h4 className="pro-title">
-                    <Link to="/shop-details">Fairness Cream</Link>
+                    <Link to="">Phun môi collagen</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">$20</span>
-                    <span>$15</span>
+                    <span className="old-price">500.000 VND</span>
+                    <span>199.000 VND</span>
                   </div>
                 </div>
               </div>
@@ -188,20 +176,17 @@ const Product = () => {
             <div className="col-lg-4 col-md-12">
               <div className="product mb-40">
                 <div className="product__img">
-                  <Link to="/shop-details">
+                  <Link to="">
                     <img src={Img5} alt="" />
                   </Link>
-                  <div className="product-action text-center">
-                    <Link to="/shop-details">Add Cart</Link>
-                  </div>
                 </div>
                 <div className="product__content pt-30">
                   <h4 className="pro-title">
-                    <Link to="/shop-details">Agrofarm Onion</Link>
+                    <Link to="">Chăm sóc da</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">$20</span>
-                    <span>$15</span>
+                    <span className="old-price">500.000 VND</span>
+                    <span>199.000 VND</span>
                   </div>
                 </div>
               </div>
@@ -209,20 +194,17 @@ const Product = () => {
             <div className="col-lg-4 col-md-12">
               <div className="product mb-40">
                 <div className="product__img">
-                  <Link to="/shop-details">
+                  <Link to="">
                     <img src={Img6} alt="" />
                   </Link>
-                  <div className="product-action text-center">
-                    <Link to="/shop-details">Add Cart</Link>
-                  </div>
                 </div>
                 <div className="product__content pt-30">
                   <h4 className="pro-title">
-                    <Link to="/shop-details">Agrofarm Onion</Link>
+                    <Link to="">Triệt lông</Link>
                   </h4>
                   <div className="price">
-                    <span>$95.00</span>
-                    <span className="old-price">$120.00</span>
+                    <span className="old-price">500.000 VND</span>
+                    <span>199.000 VND</span>
                   </div>
                 </div>
               </div>

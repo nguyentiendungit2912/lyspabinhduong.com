@@ -23,8 +23,8 @@ const Pricing = () => {
                 data-animation="fadeInDown"
                 data-delay=".4s"
               >
-                <h5>Choose Package</h5>
-                <h2>Our Pricing Plan</h2>
+                <h5>Các gói cho học viên</h5>
+                <h2>Chương trình đào tạo</h2>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Pricing = () => {
                   <h3>Comfort Relax</h3>
                   <div className="price-count">
                     <h2>
-                      $29.99 <span>/ Monthly</span>
+                      14.999.999 VND 
                     </h2>
                     <p>
                       Proin vehicula elit a dui rutrum, ac posuere magna auctor.
@@ -69,7 +69,7 @@ const Pricing = () => {
                 </div>
                 <div className="pricing-btn">
                   <Link to="/contact" className="btn ss-btn">
-                    Choose Plan
+                  Đăng ký khóa học
                   </Link>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const Pricing = () => {
                   <h3>Premium Spa</h3>
                   <div className="price-count">
                     <h2>
-                      $39.99 <span>/ Monthly</span>
+                      24.999.999 VND 
                     </h2>
                     <p>
                       Proin vehicula elit a dui rutrum, ac posuere magna auctor.
@@ -116,7 +116,7 @@ const Pricing = () => {
 
                 <div className="pricing-btn">
                   <Link to="/contact" className="btn ss-btn">
-                    Choose Plan
+                  Đăng ký khóa học
                   </Link>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const Pricing = () => {
                   <h3>Luxury Retreat</h3>
                   <div className="price-count">
                     <h2>
-                      $49.99 <span>/ Monthly</span>
+                        34.999.999 VND 
                     </h2>
                     <p>
                       Proin vehicula elit a dui rutrum, ac posuere magna auctor.
@@ -161,7 +161,7 @@ const Pricing = () => {
                 </div>
                 <div className="pricing-btn">
                   <Link to="/contact" className="btn ss-btn">
-                    Choose Plan
+                    Đăng ký khóa học
                   </Link>
                 </div>
               </div>

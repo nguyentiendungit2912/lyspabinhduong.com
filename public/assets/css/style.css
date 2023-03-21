@@ -286,7 +286,7 @@ label {
 	position: relative;
     z-index: 999;
     text-transform: uppercase;
-    background: #884cd2;
+    background: #ff4f9d;
     border: none;
 }
 
@@ -713,7 +713,7 @@ color: #b8bfc3;
 .second-header {
 border: none;
 padding-bottom: 15px;
-background: #884cd2;
+background: #ff4f9d;
 padding-top: 15px;
 color: #fff;
 position: relative;
@@ -745,7 +745,7 @@ color: #fff;
 padding: 20px 30px;
     position: relative;
     border-radius: 10px;
-    background: #884cd2;
+    background: #ff4f9d;
 }
 .second-header-btn .btn:hover {
 color: #fff;
@@ -982,7 +982,7 @@ right: 10px;
 top: 10px;
 bottom: 10px;
 border-radius: 10px;
-background: #884cd2;
+background: #ff4f9d;
 border: none;
 color: #fff;
 padding: 5px 15px;
@@ -1046,13 +1046,13 @@ padding: 15px 25px;
 text-align: center;
 transition: all 0.3s ease 0s;
 text-transform: uppercase;
-background: #884cd2;
+background: #ff4f9d;
 }
 .feature-area .row .col-lg-4.col-md-6.col-sm-12:nth-child(1) .text a{
     background: #ff4f9d;
 }
 .feature-area .row .col-lg-4.col-md-6.col-sm-12:nth-child(2) .text h5{
-    color: #884cd2;
+    color: #ff4f9d;
 }
 .feature-area .row .col-lg-4.col-md-6.col-sm-12:nth-child(3) .text h5{
     color: #e88e38;
@@ -3540,7 +3540,7 @@ z-index: 999;
 margin: 5px 0;
 width: 40px;
 height: 40px;
-background: #884cd2;
+background: #ff4f9d;
 line-height: 40px;
 }
 .team-social a:hover{
@@ -4285,7 +4285,7 @@ float: left;
 margin-left: 15px;
 }
 .testimonial-active .ta-info span {
-color: #884cd2;
+color: #ff4f9d;
 font-size: 14px;
 }
 .testimonial-active .ta-info h6 {
@@ -4545,7 +4545,7 @@ right: 0;
 font-size: 26px;
 /* font-family: "Font Awesome 5 Pro"; */
 font-weight: 600;
-background: #884cd2;
+background: #ff4f9d;
 width: 61px;
 height: 61px;
 box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
@@ -4560,7 +4560,7 @@ color: #fff;
     color: #FFF;
     font-weight: 900;
     font-size: 26px;
-    background: #884cd2;
+    background: #ff4f9d;
     top: 0;
     padding: 18px 20px 15px 18px;
 }
@@ -4787,7 +4787,7 @@ text-transform: uppercase;
   display: inline-block;
   margin-right: 8px;
   padding-right: 8px;
-  color: #884cd2;
+  color: #ff4f9d;
 }
 .b-meta ul li:last-child{margin-right: 0; padding-right: 0;border: none;}
 .b-meta ul li a {
@@ -4803,7 +4803,7 @@ text-transform: uppercase;
 
 .blog-btn a {
 display: inline-block;
-color: #884cd2;
+color: #ff4f9d;
 font-size: 15px;
 text-transform: uppercase;
 font-weight: 500;
@@ -4822,7 +4822,7 @@ color: #00173c;
 }
 .b-meta i{
     margin-right: 5px;
-    color: #884cd2;
+    color: #ff4f9d;
 }
 .single-post{transition: .3s;background: #FFFFFF 0% 0% no-repeat padding-box;
 box-shadow:3px 4px 15px #00000026;
@@ -5108,7 +5108,7 @@ margin-left: 15px;
     color: #ff4f9d;
 }
 .text-blue li i {
-    color: #884cd2;
+    color: #ff4f9d;
 }
 .text-orange li i {
     color: #e88e38;
@@ -5174,7 +5174,7 @@ background: #f7f1ff;
     box-shadow: none;
 }
 .pcolor .col-lg-4.col-md-6:nth-child(2) .pricing-box2.active .price-count h2,.pcolor .col-lg-4.col-md-6:nth-child(2) .pricing-body li::before{
-color: #884cd2;
+color: #ff4f9d;
 }
 .pcolor .col-lg-4.col-md-6:nth-child(3) .pricing-box{
 background: #fff4ea;    
@@ -10663,7 +10663,7 @@ blockquote a ,blockquote cite{
 .opening-time .discount{
     font-size: 20px;
     margin-top: 30px;
-    color: #884cd2;
+    color: #ff4f9d;
 }
 .opening-time h3::before{
 position: absolute;

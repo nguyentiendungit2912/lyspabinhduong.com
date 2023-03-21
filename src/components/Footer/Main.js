@@ -36,10 +36,10 @@ const Main = () => {
                               <img src={Img2} alt="logo" />
                             </div>
                             <div className="text">
-                              <strong>Monday - Saturday:</strong>
-                              <p>9:00am - 10:00pm</p>
-                              <strong>Monday - Saturday:</strong>
-                              <p>9:00am - 10:00pm</p>
+                              <strong>Thứ 2 - Thứ 7:</strong><span>Giờ làm việc </span>
+                              <span>9:00 - 22:00</span>
+                              <strong>Chủ Nhật:</strong><span>Giờ làm việc </span>
+                              <span>9:00 - 22:00</span>
                             </div>
                           </div>
                         </li>
@@ -153,7 +153,7 @@ const Main = () => {
             <div className="row align-items-center copyright-wrap">
               <div className="col-lg-6">
                 <div className="copy-text">
-                  Copyright &copy; 2022 <Link to="#">Fallspa</Link>. All rights
+                  Copyright &copy; 2022 <Link to="#">MinTech</Link>. All rights
                   reserved.
                 </div>
               </div>
@@ -166,7 +166,7 @@ const Main = () => {
                           <img src={Footer} alt="img" />
                         </div>
                         <div className="text">
-                          <span>info@wellspa.com</span>
+                          <span>mintech0202@gmail.com</span>
                           <h3> Our Email:</h3>
                         </div>
                       </div>
@@ -177,7 +177,7 @@ const Main = () => {
                           <img src={Footer1} alt="img" />
                         </div>
                         <div className="text">
-                          <span>+91 598 9874 987</span>
+                          <span>+84 383 899 488</span>
                           <h3>Call Now:</h3>
                         </div>
                       </div>

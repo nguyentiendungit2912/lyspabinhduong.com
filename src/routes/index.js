@@ -19,7 +19,6 @@ import Blog from '../components/BlogMain/Blog/Main'
 import BlogDetails from '../components/BlogMain/BlogDetails/Main'
 import Contact from '../components/Contact/Main'
 
-
 const Routing = () => {
 
   const [homepage, sethomepage] = useState(false)
@@ -58,7 +57,6 @@ const Routing = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details" element={<BlogDetails />} />
         <Route path="/contact" element={<Contact />} />
-
       </Routes>
       <Footer />
     </>

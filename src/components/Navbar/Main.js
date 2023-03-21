@@ -28,8 +28,8 @@ const Main = () => {
                     <nav id="mobile-menu">
                       <ul>
                         <li className="has-sub">
-                          <Link to="/">Home</Link>
-                          <ul>
+                          <Link to="/">Trang chủ</Link>
+                          {/* <ul>
                             <li>
                               <Link to="/">Home Page 01</Link>
                             </li>
@@ -39,13 +39,13 @@ const Main = () => {
                             <li>
                               <Link to="/home-three">Home Page 03</Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
                         <li>
-                          <Link to="/about">About Us</Link>
+                          <Link to="/about">Giới thiệu</Link>
                         </li>
                         <li className="has-sub">
-                          <Link to="/service">Services</Link>
+                          <Link to="/service">Dịch vụ</Link>
                           <ul>
                             <li>
                               <Link to="/service-details"> Facials</Link>
@@ -109,7 +109,7 @@ const Main = () => {
                           </ul>
                         </li>
                         <li>
-                          <Link to="/contact">Contact</Link>
+                          <Link to="/contact">Liên hệ</Link>
                         </li>
                       </ul>
                     </nav>
@@ -121,7 +121,7 @@ const Main = () => {
                       <li>
                         <div className="second-header-btn">
                           <Link to="/contact" className="btn">
-                            Book Appointment
+                              Đặt lịch hẹn ngay
                           </Link>
                         </div>
                       </li>

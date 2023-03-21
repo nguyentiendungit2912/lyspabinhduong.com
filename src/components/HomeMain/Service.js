@@ -38,7 +38,7 @@ const Service = () => {
                   </div>
                   <div className="text">
                     <h4>
-                      <Link to="/service-details">Facials</Link>
+                      <Link to="/service-details">Chăm sóc da mặt</Link>
                     </h4>
                     <p>
                       Cras id aliquam leo. Vestibulum laoreet, mi sit amet
@@ -52,7 +52,7 @@ const Service = () => {
                   </div>
                   <div className="text">
                     <h4>
-                      <Link to="/service-details">Mineral Baths</Link>
+                      <Link to="/service-details">Tắm khoáng</Link>
                     </h4>
                     <p>
                       Aenean eleifend turpis tellus, nec laoreet metus elementum
@@ -91,7 +91,7 @@ const Service = () => {
                   </div>
                   <div className="text pt-10">
                     <h4>
-                      <Link to="/service-details">Body Treatments</Link>
+                      <Link to="/service-details">Điều trị cơ thể</Link>
                     </h4>
                     <p>
                       Aenean eleifend turpis tellus, nec laoreet metus elementum
@@ -105,7 +105,7 @@ const Service = () => {
                   </div>
                   <div className="text pt-10">
                     <h4>
-                      <Link to="/service-details">Waxing</Link>
+                      <Link to="/service-details">Tẩy lông</Link>
                     </h4>
                     <p>
                       Aenean eleifend turpis tellus, nec laoreet metus elementum
