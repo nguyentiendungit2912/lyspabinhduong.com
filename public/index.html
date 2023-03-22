@@ -49,8 +49,8 @@
 .hotline-phone-ring-circle {
   width: 100px;
   height: 100px;
-  top: 0;
-  left: 0;
+  top: -5px;
+  left: 5px;
   position: absolute;
   background-color: transparent;
   border-radius: 100%;
@@ -66,8 +66,8 @@
 .hotline-phone-ring-circle-fill {
   width: 80px;
   height: 80px;
-  top: 10px;
-  left: 10px;
+  top: 5px;
+  left: 15px;
   position: absolute;
   background-color: #ff4f9d;
   border-radius: 100%;
@@ -83,8 +83,8 @@
   background-color: #ff4f9d;
   width: 50px;
   height: 50px;
-  top: 25px;
-  left: 25px;
+  top: 20px;
+  left: 30px;
   position: absolute;
   background-size: 20px;
   border-radius: 100%;
@@ -205,7 +205,30 @@
     right: 0;
   }
 }
-</style>
+  </style>
+  <script crossorigin >
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "238922257386765");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script crossorigin>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v16.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 </head>
 <body class="custom-cursor">
   <div class="custom-cursor__cursor"></div>
@@ -214,14 +237,14 @@
   <div class="preloader">
     <div class="preloader__circle"></div>
   </div>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root" class="page-wrapper"></div>
-    <!-- Messenger Plugin chat Code -->
-   <div id="fb-root"></div>
-
-   <!-- Your Plugin chat code -->
-   <div id="fb-customer-chat" class="fb-customerchat">
-   </div>
   <div class="hotline-phone-ring-wrap">
     <div class="hotline-phone-ring">
         <div class="hotline-phone-ring-circle"></div>
@@ -259,28 +282,6 @@
   <script type="JavaScript" src="assets/js/element-in-view.js"></script>
   <script type="JavaScript" src="assets/js/main.js"></script>
 
-   <script crossorigin >
-     var chatbox = document.getElementById('fb-customer-chat');
-     chatbox.setAttribute("page_id", "238922257386765");
-     chatbox.setAttribute("attribution", "biz_inbox");
-   </script>
-
-   <!-- Your SDK code -->
-   <script crossorigin>
-     window.fbAsyncInit = function() {
-       FB.init({
-         xfbml            : true,
-         version          : 'v16.0'
-       });
-     };
-
-     (function(d, s, id) {
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) return;
-       js = d.createElement(s); js.id = id;
-       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-   </script>
+   
 </body>
 </html>
