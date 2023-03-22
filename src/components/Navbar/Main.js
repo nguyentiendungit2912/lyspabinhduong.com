@@ -161,37 +161,14 @@ const Main = () => {
                         {mobile && (
                           <ul style={{ display: mobile ? "block" : "none" }}>
                             <li className="has-sub">
-                              <Link to="/">Home</Link>
-                              <ul style={{ display: show ? "block" : "none" }}>
-                                <li>
-                                  <Link to="/">Home Page 01</Link>
-                                </li>
-                                <li>
-                                  <Link to="/home-two">Home Page 02</Link>
-                                </li>
-                                <li>
-                                  <Link to="/home-three">Home Page 03</Link>
-                                </li>
-                              </ul>
-                              <Link
-                                to="#"
-                                className={`mean-expand ${
-                                  show && "mean-clicked"
-                                }`}
-                                onClick={() =>
-                                  setshow(show === true ? false : true)
-                                }
-                                style={{ fontSize: "18px" }}
-                              >
-                                +
-                              </Link>
+                              <Link to="/">Trang Chủ</Link>
                             </li>
                             <li>
-                              <Link to="/about/">About Us</Link>
+                              <Link to="/about/">Giới Thiệu</Link>
                             </li>
 
                             <li className="has-sub">
-                              <Link to="/service">Services</Link>
+                              <Link to="/service">Dịch Vụ</Link>
                               <ul style={{ display: show1 ? "block" : "none" }}>
                                 <li>
                                   <Link to="/service-details"> Facials</Link>
@@ -274,31 +251,8 @@ const Main = () => {
                                 +
                               </Link>
                             </li>
-                            <li className="has-sub">
-                              <Link to="/blog">Blog</Link>
-                              <ul style={{ display: show3 ? "block" : "none" }}>
-                                <li>
-                                  <Link to="/blog">Blog</Link>
-                                </li>
-                                <li>
-                                  <Link to="/blog-details">Blog Details</Link>
-                                </li>
-                              </ul>
-                              <Link
-                                to="#"
-                                className={`mean-expand ${
-                                  show3 && "mean-clicked"
-                                }`}
-                                onClick={() =>
-                                  setshow3(show3 === true ? false : true)
-                                }
-                                style={{ fontSize: "18px" }}
-                              >
-                                +
-                              </Link>
-                            </li>
                             <li className="mean-last">
-                              <Link to="/contact">Contact</Link>
+                              <Link to="/contact">Liên Hệ</Link>
                             </li>
                           </ul>
                         )}

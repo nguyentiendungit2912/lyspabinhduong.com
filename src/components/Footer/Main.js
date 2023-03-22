@@ -23,10 +23,7 @@ const Main = () => {
                   </div>
                   <div className="footer-link">
                     <p>
-                      Mauris non nisi semper, lacinia neque in, dapibus leo.
-                      Curabitur sagittis libero tincidunt tempor finibus. Mauris
-                      at dignissim ligula, nec tristique orci.Quisque vitae
-                      metus.
+                    Ly Spa - nơi thăng hoa sắc đẹp! Chúng tôi cam kết mang đến cho khách hàng những trải nghiệm chăm sóc da tuyệt vời nhất với dịch vụ spa chuyên nghiệp, sản phẩm chăm sóc da cao cấp.
                     </p>
                     <div className="f-contact">
                       <ul>

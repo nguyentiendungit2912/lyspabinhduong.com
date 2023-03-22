@@ -37,9 +37,7 @@ const Main = () => {
                         TỎA SÁNG RỰC RỠ
                       </h2>
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        Donec vitae libero non enim placerat eleifend aliquam
-                        erat volutpat. Curabitur diam ex, dapibus purus sapien,
-                        cursus sed nisl tristique.
+                      Ly Spa - nơi thăng hoa sắc đẹp! Chúng tôi cam kết mang đến cho khách hàng những trải nghiệm chăm sóc da tuyệt vời nhất với dịch vụ spa chuyên nghiệp, sản phẩm chăm sóc da cao cấp.
                       </p>
 
                       <div className="slider-btn mt-30">

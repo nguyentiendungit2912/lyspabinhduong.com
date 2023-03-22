@@ -41,22 +41,14 @@ const About = () => {
                   <h2>Cách tốt nhất để chăm sóc làn da của bạn</h2>
                 </div>
                 <p>
-                  Suspendisse et porttitor leo. Sed porttitor dui sit amet
-                  luctus bibendum. Sed pulvinar diam lacus, ut elementum nisl
-                  volutpat in. Nullam vitae nulla dolor. Pellentesque viverra
-                  arcu ut Curabitur tempor mauris ex, eget porta tellus posuere
-                  maximus.
+                Có nhiều cách để chăm sóc làn da của bạn, tuy nhiên, để đạt được hiệu quả tốt nhất, đó là kết hợp giữa các phương pháp chăm sóc chuyên nghiệp và chế độ chăm sóc hàng ngày. Ly Spa là địa chỉ tin cậy để bạn có thể tìm thấy các liệu trình chăm sóc da chuyên sâu và các sản phẩm chăm sóc da cao cấp, giúp tái tạo, phục hồi và nuôi dưỡng làn da của bạn.
                 </p>
                 <p>
-                  Nulla nisl ligula, efficitur eget ipsum ac, luctus elementum
-                  risus. Phasellus venenatis turpis eget nulla porttitor varius.
-                  Ut ut lorem commodo, aliquet augue sit amet, luctus elit.
-                  Curabitur tempor mauris ex, eget porta metus imperdiet ac.
-                  Mauris aliquet ante sit amet rhoncus semper.
+                Tại Ly Spa, chúng tôi sử dụng các công nghệ tiên tiến như lazer, điện di, ánh sáng LED và các loại mặt nạ đặc biệt để cung cấp các liệu trình chăm sóc da cao cấp nhất. Khách hàng của chúng tôi thường cảm nhận được sự khác biệt rõ rệt trên làn da của mình sau mỗi lần trải nghiệm dịch vụ.
                 </p>
                 <div className="slider-btn mt-20">
                   <Link to="/about" className="btn ss-btn smoth-scroll">
-                    Explore More
+                    Đặt lịch hẹn ngay
                   </Link>
                 </div>
               </div>
