@@ -1,9 +1,13 @@
 import BGImg3 from "../../assets/img/bg/ap-bg.png";
-import React from "react";
+import React, { useState } from "react";
 import Img from "../../assets/img/bg/open-box-img.png";
 import emailjs from 'emailjs-com';
+import moment from "moment";
+import "moment/locale/vi";
 
 const Appointment = () => {
+  const [selectedDate, setSelectedDate] = useState("");
+  
   function formatDate(dateString) {
     const date = new Date(dateString);
     const formattedDate = `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()}`;
@@ -11,6 +15,10 @@ const Appointment = () => {
     // Kết hợp các thông tin để tạo chuỗi có định dạng dd/mm/yyyy
     return formattedDate;
   }
+
+  const defaultDate = new Date().toLocaleString("vi-VN", {
+    timeZone: "Asia/Ho_Chi_Minh",
+  });
 
   function sendEmail(e) {
     e.preventDefault();
@@ -50,8 +58,8 @@ const Appointment = () => {
         method: "POST",
         body: form
       })
-      alert("Đặt lịch hẹn thành công! Chúng tôi sẽ liên hệ bạn sớm nhất")
       sendEmail(event)
+      alert("Đặt lịch hẹn thành công! Chúng tôi sẽ liên hệ bạn sớm nhất")
     } catch (error) {
       console.log(error);
     }
@@ -77,7 +85,7 @@ const Appointment = () => {
                   <h5>LIÊN HỆ</h5>
                   <h2>ĐẶT LỊCH HẸN</h2>
                   <p>
-                    Liên hệ đặt lịch ngay để nhận ưu đãi cực kỳ hấp dẫn. Hoặc gọi ngay hotline <span style={{color: "red"}}>0383.899.488</span> để nhận được tư vấn về các dịch vụ khác.
+                    Liên hệ đặt lịch ngay để nhận ưu đãi cực kỳ hấp dẫn. Hoặc gọi ngay hotline <span style={{color: "red"}}>0868 990 167</span> để nhận được tư vấn về các dịch vụ khác.
                   </p>
                 </div>
                 <form
@@ -87,6 +95,7 @@ const Appointment = () => {
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-name mb-20">
+                      <label htmlFor="fullname" className="placeholder">Họ và tên</label>
                         <input
                           type="text"
                           id="fullname"
@@ -98,6 +107,7 @@ const Appointment = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
+                      <label htmlFor="email" className="placeholder">Email</label>
                         <input
                           type="text"
                           id="email"
@@ -109,6 +119,7 @@ const Appointment = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
+                      <label htmlFor="phone" className="placeholder">Số điện thoại</label>
                         <input
                           type="tel"
                           id="phone"
@@ -120,16 +131,18 @@ const Appointment = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
+                        <label htmlFor="datetime" className="placeholder">Ngày đặt lịch vụ</label>
                         <input
-                          type="date"
+                          type="datetime-local"
                           id="datetime"
                           name="datetime"
-                          placeholder="Subject"
+                          defaultValue={defaultDate}
                         />
                       </div>
                     </div>
                     <div className="col-lg-12">
                       <div className="contact-field p-relative c-subject mb-30">
+                      <label htmlFor="service" className="placeholder">Dịch vụ</label>
                         <select
                           className="custom-select"
                           id="service"
@@ -151,6 +164,7 @@ const Appointment = () => {
                     </div>
                     <div className="col-lg-12">
                       <div className="contact-field p-relative c-message mb-30">
+                      <label htmlFor="message" className="placeholder">Ghi chú thêm yêu cầu</label>
                         <textarea
                           name="message"
                           id="message"
