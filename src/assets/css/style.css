@@ -11023,6 +11023,8 @@ color: #fff;
 @media only screen and (max-device-width: 414px) {
     input[type="date"] {
       width: 100%;
+      -webkit-appearance: none;
+      -moz-appearance: none;
     }
   }
   
