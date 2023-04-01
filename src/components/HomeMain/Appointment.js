@@ -77,7 +77,7 @@ const Appointment = () => {
           backgroundImage: `url(${BGImg3})`,
         }}
       >
-        <div className="container">
+        <div className="container book-appointment-form">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="contact-bg">

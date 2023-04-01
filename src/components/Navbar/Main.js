@@ -9,6 +9,13 @@ const Main = () => {
   const [show2, setshow2] = useState(false);
   const [show3, setshow3] = useState(false);
 
+  const handleBookAppointmentClick = () => {
+    const formElement = document.getElementById("booking");
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  
   return (
     <>
       <header className="header-area header-three">
@@ -52,7 +59,7 @@ const Main = () => {
                     <ul>
                       <li>
                         <div className="second-header-btn">
-                          <Link to="/contact" className="btn">
+                          <Link onClick={handleBookAppointmentClick} className="btn">
                               Đặt lịch hẹn ngay
                           </Link>
                         </div>

@@ -12,6 +12,12 @@ import Feature from "../HomeMain/Feature";
 import Product from "../HomeMain/Product";
 
 const Main = () => {
+  const handleBookAppointmentClick = () => {
+    const formElement = document.getElementById("booking");
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <main>
@@ -44,7 +50,7 @@ const Main = () => {
                         {/* <Link to="/contact" className="btn ss-btn mr-15">
                           Discover More
                         </Link> */}
-                        <Link to="/contact" className="btn ss-btn active">
+                        <Link onClick={handleBookAppointmentClick} className="btn ss-btn active">
                           Đặt lịch hẹn ngay
                         </Link>
                       </div>

@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 import Img from "../../assets/img/features/about_img.png";
 
 const About = () => {
+  const handleBookAppointmentClick = () => {
+    const formElement = document.getElementById("booking");
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <section
@@ -47,7 +53,7 @@ const About = () => {
                 Tại Ly Spa, chúng tôi sử dụng các công nghệ tiên tiến như lazer, điện di, ánh sáng LED và các loại mặt nạ đặc biệt để cung cấp các liệu trình chăm sóc da cao cấp nhất. Khách hàng của chúng tôi thường cảm nhận được sự khác biệt rõ rệt trên làn da của mình sau mỗi lần trải nghiệm dịch vụ.
                 </p>
                 <div className="slider-btn mt-20">
-                  <Link to="/about" className="btn ss-btn smoth-scroll">
+                  <Link onClick={handleBookAppointmentClick} className="btn ss-btn smoth-scroll">
                     Đặt lịch hẹn ngay
                   </Link>
                 </div>

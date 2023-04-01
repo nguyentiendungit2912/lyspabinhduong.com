@@ -5270,6 +5270,7 @@ color: #e88e38;
 	cursor: unset;
 }
 .contact-field {
+    width: 100%;
  padding-right: 0;
 }
 .contact-field input  {
