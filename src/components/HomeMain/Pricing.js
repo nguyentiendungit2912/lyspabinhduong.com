@@ -32,37 +32,37 @@ const Pricing = () => {
             <div className="col-lg-4 col-md-6">
               <div className="pricing-box pricing-box2 text-center mb-60">
                 <div className="pricing-head">
-                  <h3>Comfort Relax</h3>
+                  <h3>Chăm sóc da căn bản </h3>
                   <div className="price-count">
+                    <h5 className="old-price">
+                      20.000.000 VND
+                    </h5>
                     <h2>
                       14.999.999 VND 
                     </h2>
-                    <p>
-                      Proin vehicula elit a dui rutrum, ac posuere magna auctor.
-                    </p>
                   </div>
                   <hr />
                 </div>
                 <div className="pricing-body mt-20 mb-30 text-left text-pink">
                   <ul>
                     <li>
-                      Aliquam quis justo at lorem{" "}
+                      Chăm sóc da căn bản.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Fusce sodales, urna et tempus{" "}
+                      Phương pháp chăm sóc da hiệu quả.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Vestibulum blandit lorem quis{" "}
+                      Phát triển dịch vụ chăm sóc da.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Orci varius natoque penatibus{" "}
+                      Thời gian linh hoạt, phù hợp.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Aliquam a nisl congue, auctor{" "}
+                      Kỹ năng chăm sóc da cơ bản.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                   </ul>
@@ -77,14 +77,14 @@ const Pricing = () => {
             <div className="col-lg-4 col-md-6">
               <div className="pricing-box pricing-box2 active text-center mb-60">
                 <div className="pricing-head">
-                  <h3>Premium Spa</h3>
+                  <h3>Chăm sóc da chuyên sâu</h3>
                   <div className="price-count">
+                    <h5 className="old-price">
+                      35.000.000 VND
+                    </h5>
                     <h2>
                       24.999.999 VND 
                     </h2>
-                    <p>
-                      Proin vehicula elit a dui rutrum, ac posuere magna auctor.
-                    </p>
                   </div>
                   <hr />
                 </div>
@@ -92,23 +92,23 @@ const Pricing = () => {
                 <div className="pricing-body mt-20 mb-30 text-left text-blue">
                   <ul>
                     <li>
-                      Aliquam quis justo at lorem{" "}
+                      Chăm sóc da chuyên nghiệp.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Fusce sodales, urna et tempus{" "}
+                      Phương pháp chăm sóc da hiệu quả.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Vestibulum blandit lorem quis{" "}
+                      Phát triển dịch vụ chăm sóc da.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Orci varius natoque penatibus{" "}
+                      Thời gian linh hoạt, phù hợp.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Aliquam a nisl congue, auctor{" "}
+                      Kỹ năng chăm sóc da chuyên nghiệp.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                   </ul>
@@ -124,37 +124,37 @@ const Pricing = () => {
             <div className="col-lg-4 col-md-6">
               <div className="pricing-box pricing-box2 text-center mb-60">
                 <div className="pricing-head">
-                  <h3>Luxury Retreat</h3>
+                  <h3>Khóa học phun xăm</h3>
                   <div className="price-count">
+                    <h5 className="old-price">
+                      40.000.000 VND
+                    </h5>
                     <h2>
                         34.999.999 VND 
                     </h2>
-                    <p>
-                      Proin vehicula elit a dui rutrum, ac posuere magna auctor.
-                    </p>
                   </div>
                   <hr />
                 </div>
                 <div className="pricing-body mt-20 mb-30 text-left text-orange">
                   <ul>
                     <li>
-                      Aliquam quis justo at lorem{" "}
+                      Chăm sóc da chuyên nghiệp.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Fusce sodales, urna et tempus{" "}
+                      Phương pháp chăm sóc da hiệu quả.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Vestibulum blandit lorem quis{" "}
+                      Phát triển dịch vụ chăm sóc da.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Orci varius natoque penatibus{" "}
+                      Thời gian linh hoạt, phù hợp.{" "}
                       <i className="fa fa-check"></i>
                     </li>
                     <li>
-                      Aliquam a nisl congue, auctor{" "}
+                      Đăng ký ngay để <span style={{color: "red"}}>GIẢM 5 TRIỆU.</span>{" "}
                       <i className="fa fa-check"></i>
                     </li>
                   </ul>

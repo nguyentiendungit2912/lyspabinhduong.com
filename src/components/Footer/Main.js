@@ -23,7 +23,16 @@ const Main = () => {
                   </div>
                   <div className="footer-link">
                     <p>
-                    Ly Spa - nơi thăng hoa sắc đẹp! Chúng tôi cam kết mang đến cho khách hàng những trải nghiệm chăm sóc da tuyệt vời nhất với dịch vụ spa chuyên nghiệp, sản phẩm chăm sóc da cao cấp.
+                      <strong>Địa chỉ : </strong>
+                      <span>138 đường 30/4, Phú Hoà, Thủ Dầu Một, Bình Dương.</span>
+                    </p>
+                    <p>
+                      <strong>Hotline 1 :</strong>
+                      <span style={{color : "red"}}> 0868 990 167</span>
+                    </p>
+                    <p>
+                      <strong>Hotline 2 :</strong>
+                      <span style={{color : "red"}}> 0815 724 349</span>
                     </p>
                     <div className="f-contact">
                       <ul>
@@ -33,9 +42,9 @@ const Main = () => {
                               <img src={Img2} alt="logo" />
                             </div>
                             <div className="text">
-                              <strong>Thứ 2 - Thứ 7:</strong><span>Giờ làm việc </span>
-                              <span>9:00 - 22:00</span>
-                              <strong>Chủ Nhật:</strong><span>Giờ làm việc </span>
+                              <strong>Thứ 2 - Thứ 6:</strong><span>Giờ làm việc </span>
+                              <span>9:00 - 21:00</span>
+                              <strong>Thứ 7 - Chủ Nhật:</strong><span>Giờ làm việc </span>
                               <span>9:00 - 22:00</span>
                             </div>
                           </div>
@@ -53,22 +62,19 @@ const Main = () => {
                   <div className="footer-link">
                     <ul>
                       <li>
-                        <Link to="/"> Home</Link>
+                        <Link to="/"> Trang Chủ</Link>
                       </li>
                       <li>
-                        <Link to="/about">About Us</Link>
+                        <Link to="/about">Giới Thiệu</Link>
                       </li>
                       <li>
-                        <Link to="/service">Services</Link>
+                        <Link to="/service">Dịch Vụ</Link>
                       </li>
                       <li>
-                        <Link to="/gallery"> Project</Link>
+                        <Link to="/gallery">Sản Phẩm</Link>
                       </li>
                       <li>
-                        <Link to="/team">Our Team</Link>
-                      </li>
-                      <li>
-                        <Link to="/blog">Latest Blog</Link>
+                        <Link to="/contact">Liên Hệ</Link>
                       </li>
                     </ul>
                   </div>
@@ -77,27 +83,27 @@ const Main = () => {
               <div className="col-xl-2 col-lg-2 col-sm-6">
                 <div className="footer-widget mb-30">
                   <div className="f-widget-title">
-                    <h2>Our Services</h2>
+                    <h2>Các dịch vụ</h2>
                   </div>
                   <div className="footer-link">
                     <ul>
                       <li>
-                        <Link to="#"> Facials</Link>
+                        <Link to="#"> Massage </Link>
                       </li>
                       <li>
-                        <Link to="#">Body Treatments</Link>
+                        <Link to="#"> Điều trị mụn</Link>
                       </li>
                       <li>
-                        <Link to="#"> Mineral Baths</Link>
+                        <Link to="#"> Phun môi collagen</Link>
                       </li>
                       <li>
-                        <Link to="#">Waxing</Link>
+                        <Link to="#"> Chăm sóc quầng thâm mắt</Link>
                       </li>
                       <li>
-                        <Link to="#">Massage</Link>
+                        <Link to="#">Triệt lông</Link>
                       </li>
                       <li>
-                        <Link to="#">Geothermal Spa</Link>
+                        <Link to="#">Và nhiều dịch vụ khác</Link>
                       </li>
                     </ul>
                   </div>
@@ -135,7 +141,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="footer-social mt-10">
-                  <a href="https://www.facebook.com/" title="Facebook">
+                  <a href="https://www.facebook.com/profile.php?id=100036470055343" title="Facebook">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a href="https://www.instagram.com/" title="Instagram">

@@ -29,84 +29,16 @@ const Main = () => {
                       <ul>
                         <li className="has-sub">
                           <Link to="/">Trang chủ</Link>
-                          {/* <ul>
-                            <li>
-                              <Link to="/">Home Page 01</Link>
-                            </li>
-                            <li>
-                              <Link to="/home-two">Home Page 02</Link>
-                            </li>
-                            <li>
-                              <Link to="/home-three">Home Page 03</Link>
-                            </li>
-                          </ul> */}
                         </li>
                         <li>
-                          <Link to="/about">Giới thiệu</Link>
+                          <Link to="/">Giới thiệu</Link>
                         </li>
                         <li className="has-sub">
-                          <Link to="/service">Dịch vụ</Link>
-                          <ul>
-                            <li>
-                              <Link to="/service-details"> Facials</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Body Treatments</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details"> Mineral Baths</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Waxing</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Massage</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Geothermal Spa</Link>
-                            </li>
-                            <li>
-                              <Link to="/service">Services</Link>
-                            </li>
-                          </ul>
+                          <Link to="/">Dịch vụ</Link>
                         </li>
+                        
                         <li className="has-sub">
-                          <Link to="#">Pages</Link>
-                          <ul>
-                            <li>
-                              <Link to="/gallery">Gallery</Link>
-                            </li>
-
-                            <li>
-                              <Link to="/pricing">Pricing</Link>
-                            </li>
-                            <li>
-                              <Link to="/faq">Faq</Link>
-                            </li>
-                            <li>
-                              <Link to="/team">Team</Link>
-                            </li>
-                            <li>
-                              <Link to="/team-details">Team Details</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop">Shop</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop-details">Shop Details</Link>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="has-sub">
-                          <Link to="/blog">Blog</Link>
-                          <ul>
-                            <li>
-                              <Link to="/blog">Blog</Link>
-                            </li>
-                            <li>
-                              <Link to="/blog-details">Blog Details</Link>
-                            </li>
-                          </ul>
+                          <Link to="/">Blog</Link>
                         </li>
                         <li>
                           <Link to="/contact">Liên hệ</Link>

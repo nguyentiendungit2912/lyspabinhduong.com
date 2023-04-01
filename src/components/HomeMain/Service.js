@@ -25,8 +25,8 @@ const Service = () => {
         <div className="row align-items-center">
           <div className="col-lg-12">
             <div className="section-title center-align mb-50 text-center">
-              <h5>Our Services</h5>
-              <h2>What We Provide</h2>
+              <h5>Dịch vụ của chúng tôi</h5>
+              <h2>Chúng tôi cung cấp</h2>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
@@ -41,8 +41,7 @@ const Service = () => {
                       <Link to="/service-details">Chăm sóc da mặt</Link>
                     </h4>
                     <p>
-                      Cras id aliquam leo. Vestibulum laoreet, mi sit amet
-                      tristique tincidunt nec laoreet.
+                      Chúng tôi cung cấp dịch vụ chăm sóc da mặt chuyên nghiệp và hiệu quả để giúp bạn có một làn da khỏe mạnh và rạng rỡ.
                     </p>
                   </div>
                 </li>
@@ -55,8 +54,7 @@ const Service = () => {
                       <Link to="/service-details">Tắm khoáng</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                      Dịch vụ tắm khoáng của chúng tôi sẽ giúp bạn thư giãn cơ thể, tăng cường sức khỏe và giải độc cho cơ thể một cách tự nhiên và hiệu quả.
                     </p>
                   </div>
                 </li>
@@ -69,8 +67,7 @@ const Service = () => {
                       <Link to="/service-details">Massage</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                      Chúng tôi cung cấp dịch vụ massage chuyên nghiệp và thư giãn để giúp bạn giảm stress, cải thiện sức khỏe và tăng cường cảm giác thoải mái.
                     </p>
                   </div>
                 </li>
@@ -94,8 +91,7 @@ const Service = () => {
                       <Link to="/service-details">Điều trị cơ thể</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                      Dịch vụ điều trị cơ thể của chúng tôi sẽ giúp bạn giảm đau, tăng cường sức khỏe và linh hoạt hơn trong hoạt động hàng ngày của bạn.
                     </p>
                   </div>
                 </li>
@@ -108,8 +104,7 @@ const Service = () => {
                       <Link to="/service-details">Tẩy lông</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                    Chúng tôi cung cấp dịch vụ tẩy lông hiệu quả và an toàn để giúp bạn có làn da mịn màng và thoải mái hơn.
                     </p>
                   </div>
                 </li>
@@ -119,11 +114,10 @@ const Service = () => {
                   </div>
                   <div className="text pt-10">
                     <h4>
-                      <Link to="/service-details">Geothermal Spa</Link>
+                      <Link to="/service-details">Phun môi collagen</Link>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                    Dịch vụ phun môi collagen của chúng tôi sẽ giúp bạn có đôi môi đầy đặn, căng mịn và hấp dẫn hơn một cách tự nhiên và an toàn.
                     </p>
                   </div>
                 </li>

@@ -113,8 +113,8 @@ const Product = () => {
                     <Link to=""> Gội đầu dưỡng sinh</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">500.000 VND</span>
-                    <span>199.000 VND</span>
+                    <span className="old-price">200.000 VND</span>
+                    <span>150.000 VND</span>
                   </div>
                 </div>
               </div>
@@ -128,11 +128,11 @@ const Product = () => {
                 </div>
                 <div className="product__content pt-30">
                   <h4 className="pro-title">
-                    <Link to="">Massage body</Link>
+                    <Link to="">Massage mặt</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">500.000 VND</span>
-                    <span>199.000 VND</span>
+                    <span className="old-price">300.000 VND</span>
+                    <span>200.000 VND</span>
                   </div>
                 </div>
               </div>
@@ -149,8 +149,8 @@ const Product = () => {
                     <Link to="">Điều trị mụn</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">500.000 VND</span>
-                    <span>199.000 VND</span>
+                    <span className="old-price">1.000.000 VND</span>
+                    <span>800.000 VND</span>
                   </div>
                 </div>
               </div>
@@ -167,26 +167,8 @@ const Product = () => {
                     <Link to="">Phun môi collagen</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">500.000 VND</span>
-                    <span>199.000 VND</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-12">
-              <div className="product mb-40">
-                <div className="product__img">
-                  <Link to="">
-                    <img src={Img5} alt="" />
-                  </Link>
-                </div>
-                <div className="product__content pt-30">
-                  <h4 className="pro-title">
-                    <Link to="">Chăm sóc da</Link>
-                  </h4>
-                  <div className="price">
-                    <span className="old-price">500.000 VND</span>
-                    <span>199.000 VND</span>
+                    <span className="old-price">2.000.000 VND</span>
+                    <span>1.800.000 VND</span>
                   </div>
                 </div>
               </div>
@@ -203,8 +185,8 @@ const Product = () => {
                     <Link to="">Triệt lông</Link>
                   </h4>
                   <div className="price">
-                    <span className="old-price">500.000 VND</span>
-                    <span>199.000 VND</span>
+                    <span className="old-price">300.000 VND</span>
+                    <span>250.000 VND</span>
                   </div>
                 </div>
               </div>

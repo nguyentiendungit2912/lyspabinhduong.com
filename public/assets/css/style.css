@@ -5054,6 +5054,13 @@ margin-bottom: 0 !important;
 margin-top: 15px;
 color: #ff4f9d;
 }
+
+.price-count .old-price {
+    margin-top: 10px;
+    color: #b5b5b5;
+  text-decoration: line-through;
+}
+
 .price-count h2 strong {
 font-size: 15px;
 margin-left: -12px;

@@ -14,7 +14,7 @@ import Img8 from "../../assets/img/gallery/protfolio-img08.png";
 const Gallery = () => {
   const [toggler, setToggler] = useState(false);
   const [activeImage, setActiveImage] = useState();
-  const [images, setImages] = useState([
+  const [images] = useState([
     Img1,
     Img2,
     Img3,
@@ -45,7 +45,7 @@ const Gallery = () => {
                 data-animation="fadeInDown"
                 data-delay=".4s"
               >
-                <h5>THƯ VIỆN HÌNH ẢNH</h5>
+                <h5>HÌNH ẢNH THỰC TẾ</h5>
                 <h2>Trải nghiệm khách hàng 5 sao</h2>
               </div>
             </div>
