@@ -27,7 +27,7 @@
   <style>
 .hotline-phone-ring-wrap {
   position: fixed;
-  bottom: 0;
+  bottom: 150px;
   right: 150px;
   z-index: 999999;
 }
@@ -49,7 +49,7 @@
 .hotline-phone-ring-circle {
   width: 100px;
   height: 100px;
-  bottom: 125px;
+  bottom: 5px;
   left: 5px;
   position: absolute;
   background-color: transparent;
@@ -66,7 +66,7 @@
 .hotline-phone-ring-circle-fill {
   width: 80px;
   height: 80px;
-  bottom: 135px;
+  bottom: 15px;
   left: 15px;
   position: absolute;
   background-color: #ff4f9d;
@@ -83,7 +83,7 @@
   background-color: #ff4f9d;
   width: 50px;
   height: 50px;
-  bottom: 150px;
+  bottom: 30px;
   left: 30px;
   position: absolute;
   background-size: 20px;
@@ -220,12 +220,6 @@
   <!-- Your Plugin chat code -->
   <div id="fb-customer-chat" class="fb-customerchat">
   </div>
-
-  <script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "238922257386765");
-    chatbox.setAttribute("attribution", "biz_inbox");
-  </script>
   <!-- Your SDK code -->
   <script>
     var chatbox = document.getElementById('fb-customer-chat');
