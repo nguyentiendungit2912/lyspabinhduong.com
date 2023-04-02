@@ -128,7 +128,7 @@
   border-radius: 50px !important;
   /* width: 175px !important; */
   left: 33px;
-  bottom: 155px;
+  bottom: 35px;
 }
 .hotline-bar > a {
   color: #fff;
@@ -214,13 +214,12 @@
   <div class="preloader">
     <div class="preloader__circle"></div>
   </div>
-  <!-- Messenger Plugin chat Code -->
   <div id="fb-root"></div>
 
   <!-- Your Plugin chat code -->
   <div id="fb-customer-chat" class="fb-customerchat">
   </div>
-  <!-- Your SDK code -->
+
   <script>
     var chatbox = document.getElementById('fb-customer-chat');
     chatbox.setAttribute("page_id", "238922257386765");
@@ -231,17 +230,8 @@
     window.fbAsyncInit = function() {
       FB.init({
         xfbml            : true,
-        version          : 'v16.0',
-        autoLogAppEvents : true,
-        status           : true,
-        cookie           : true,
-        xfbml            : true,
-        oauth            : true,
-        version          : 'v11.0'
+        version          : 'v16.0'
       });
-
-      // Opt-out of Origin-Agent-Cluster feature to fix customer chat issue on mobile devices
-      FB.setOriginAgentCluster({ version: 'v11.0', isIframesEnabled: true, domains: ['www.lyspabinhduong.com'] });
     };
 
     (function(d, s, id) {
