@@ -8,3 +8,6 @@
   Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
 </Files>
 
+<IfModule mod_headers.c>
+    Header set Origin-Agent-Cluster "?0"
+</IfModule>
