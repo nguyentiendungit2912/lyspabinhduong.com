@@ -11021,10 +11021,11 @@ color: #fff;
 
 
 @media only screen and (max-device-width: 414px) {
-    input[type="date"] {
+    input[type="datetime-local"] {
       width: 100%;
       -webkit-appearance: none;
       -moz-appearance: none;
+      box-sizing: border-box;
     }
   }
   
