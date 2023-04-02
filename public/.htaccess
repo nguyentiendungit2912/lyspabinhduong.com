@@ -7,7 +7,8 @@
   Header always set OriginAgentClusterDefaultEnabled false
   Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
 </Files>
-
 <IfModule mod_headers.c>
-    Header set Origin-Agent-Cluster "?0"
+    Header set Origin-Agent-Cluster "!"
 </IfModule>
+SetEnvIf Request_URI "^/v16\.0/plugins/customer_chat/bubble" nocluster
+Header always unset Origin-Agent-Cluster env=nocluster

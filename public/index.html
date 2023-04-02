@@ -228,11 +228,26 @@
   </script>
   <!-- Your SDK code -->
   <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "238922257386765");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+  <!-- Your SDK code -->
+  <script>
     window.fbAsyncInit = function() {
       FB.init({
         xfbml            : true,
-        version          : 'v16.0'
+        version          : 'v16.0',
+        autoLogAppEvents : true,
+        status           : true,
+        cookie           : true,
+        xfbml            : true,
+        oauth            : true,
+        version          : 'v11.0'
       });
+
+      // Opt-out of Origin-Agent-Cluster feature to fix customer chat issue on mobile devices
+      FB.setOriginAgentCluster({ version: 'v11.0', isIframesEnabled: true, domains: ['www.lyspabinhduong.com'] });
     };
 
     (function(d, s, id) {
