@@ -14,9 +14,6 @@ const Main = () => {
         <Service />
       </div>
       <Appointment />
-      <div className="testimonial-block">
-        <Testimonial />
-      </div>
     </>
   )
 }

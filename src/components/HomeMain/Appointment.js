@@ -26,18 +26,14 @@ const Appointment = () => {
 
     const { fullname, email, phone, datetime, service, message } = e.target.elements;
 
-    const messageBody = `
-      Name: ${fullname.value}\n
-      Email: ${email.value}\n
-      Phone: ${phone.value}\n
-      Datetime: ${formatDate(datetime.value)}\n
-      Service: ${service.value}\n
-      Message: ${message.value}\n
-    `;
-
     emailjs.send('service_kzsj3ro', 'template_a1k0pc3', {
       to_email: 'nguyentiendung.it.2912@gmail.com',
-      message: messageBody
+      name: fullname.value,
+      email: email.value,
+      phone: phone.value,
+      datetime: datetime.value,
+      service: service.value,
+      message: message.value
     }, '9AnWc2G0cZZLyKsSJ')
       .then((result) => {
         console.log(result.text);
