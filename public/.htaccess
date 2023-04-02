@@ -4,11 +4,12 @@
   Header always set Access-Control-Allow-Credentials "true"
   Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
   Header always set Access-Control-Max-Age "1000"
-  Header always set OriginAgentClusterDefaultEnabled false
   Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
 </Files>
-<IfModule mod_headers.c>
-    Header set Origin-Agent-Cluster "!"
-</IfModule>
-SetEnvIf Request_URI "^/v16\.0/plugins/customer_chat/bubble" nocluster
-Header always unset Origin-Agent-Cluster env=nocluster
+
+#always allow preflight to pass @jkr
+<LimitExcept OPTIONS>
+  RewriteEngine On
+  RewriteCond %{REQUEST_METHOD} OPTIONS
+  RewriteRule !.(js|gif|jpg|png|css|eot|svg|ttf|woff|woff2|map)$ index.html
+</LimitExcept>
