@@ -11020,7 +11020,7 @@ color: #fff;
 }
 
 
-@media only screen and (max-device-width: 414px) {
+@media only screen and (max-device-width: 768px) {
     input[type="datetime-local"] {
       width: 100%;
       -webkit-appearance: none;

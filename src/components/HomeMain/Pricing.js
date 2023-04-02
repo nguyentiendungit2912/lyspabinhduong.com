@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 const Pricing = () => {
+  const handleBookAppointmentClick = () => {
+    const formElement = document.getElementById("booking");
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <section
@@ -68,7 +74,7 @@ const Pricing = () => {
                   </ul>
                 </div>
                 <div className="pricing-btn">
-                  <Link to="/contact" className="btn ss-btn">
+                  <Link onClick={handleBookAppointmentClick} className="btn ss-btn">
                   Đăng ký khóa học
                   </Link>
                 </div>
@@ -115,7 +121,7 @@ const Pricing = () => {
                 </div>
 
                 <div className="pricing-btn">
-                  <Link to="/contact" className="btn ss-btn">
+                  <Link onClick={handleBookAppointmentClick} className="btn ss-btn">
                   Đăng ký khóa học
                   </Link>
                 </div>
@@ -160,7 +166,7 @@ const Pricing = () => {
                   </ul>
                 </div>
                 <div className="pricing-btn">
-                  <Link to="/contact" className="btn ss-btn">
+                  <Link onClick={handleBookAppointmentClick} className="btn ss-btn">
                     Đăng ký khóa học
                   </Link>
                 </div>

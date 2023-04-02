@@ -4,6 +4,7 @@ import Img from "../../assets/img/bg/open-box-img.png";
 import emailjs from 'emailjs-com';
 import moment from "moment";
 import "moment/locale/vi";
+import validator from 'validator';
 
 const Appointment = () => {
   const [selectedDate, setSelectedDate] = useState("");
@@ -50,6 +51,21 @@ const Appointment = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    const email = event.target.email.value;
+    const phone = event.target.phone.value;
+  
+    // Validate email
+    if (!validator.isEmail(email)) {
+      alert('Vui lòng nhập địa chỉ email hợp lệ!');
+      return;
+    }
+  
+    // Validate phone number
+    if (!validator.isMobilePhone(phone, 'vi-VN')) {
+      alert('Vui lòng nhập số điện thoại hợp lệ!');
+      return;
+    }
+
     try {
       const formEle = document.querySelector("form")
       const form = new FormData(formEle)
@@ -77,7 +93,7 @@ const Appointment = () => {
           backgroundImage: `url(${BGImg3})`,
         }}
       >
-        <div className="container book-appointment-form">
+        <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="contact-bg">
@@ -137,6 +153,7 @@ const Appointment = () => {
                           id="datetime"
                           name="datetime"
                           defaultValue={defaultDate}
+                          required 
                         />
                       </div>
                     </div>
@@ -148,6 +165,7 @@ const Appointment = () => {
                           id="service"
                           name="service"
                           aria-label="Example select with button addon"
+                          required 
                         >
                           <option> Lựa chọn dịch vụ</option>
                           <option value="Massage body, Massage mặt, Tắm trắng">Massage body, Massage mặt, Tắm trắng</option>
@@ -157,6 +175,7 @@ const Appointment = () => {
                           <option value="Phun môi collagen, Phum mày, Phun mi">Phun môi collagen, Phum mày, Phun mi</option>
                           <option value="Điều trị căng bóng da">Điều trị căng bóng da</option>
                           <option value="Tẩy nốt ruồi, Cấy collagen tươi, Triệt lông">Tẩy nốt ruồi, Cấy collagen tươi, Triệt lông</option>
+                          <option value="Đăng ký khóa học">Đăng ký khóa học</option>
                           <option value="Và nhiều dịch vụ khác">Và nhiều dịch vụ khác</option>
                         </select>
                         <i className="fa fa-angle-down"></i>
