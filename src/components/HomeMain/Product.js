@@ -5,12 +5,11 @@ import BGImg4 from "../../assets/img/bg/product-bg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import Img1 from "../../assets/img/shop/img1.jpg";
-import Img2 from "../../assets/img/shop/img2.jpg";
-import Img3 from "../../assets/img/shop/img3.jpg";
-import Img4 from "../../assets/img/shop/img4.jpg";
-import Img5 from "../../assets/img/shop/img5.jpg";
-import Img6 from "../../assets/img/shop/img6.jpg";
+import Img1 from "../../assets/img/shop/img1.webp";
+import Img2 from "../../assets/img/shop/img2.webp";
+import Img3 from "../../assets/img/shop/img3.webp";
+import Img4 from "../../assets/img/shop/img4.webp";
+import Img6 from "../../assets/img/shop/img6.webp";
 
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;

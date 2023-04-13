@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Bredcrumb from "../../HomeMain/Bredcrumb";
-import Img1 from "../../../assets/img/shop/img4.jpg";
-import Img2 from "../../../assets/img/shop/img5.jpg";
-import Img3 from "../../../assets/img/shop/img6.jpg";
-import Img4 from "../../../assets/img/shop/img7.jpg";
-import Img5 from "../../../assets/img/shop/img8.jpg";
-import Img6 from "../../../assets/img/shop/img9.jpg";
-import Img7 from "../../../assets/img/shop/img1.jpg";
-import Img8 from "../../../assets/img/shop/img2.jpg";
-import Img9 from "../../../assets/img/shop/img3.jpg";
+import Img1 from "../../../assets/img/shop/img4.webp";
+import Img2 from "../../../assets/img/shop/img5.webp";
+import Img3 from "../../../assets/img/shop/img6.webp";
+import Img4 from "../../../assets/img/shop/img7.webp";
+import Img5 from "../../../assets/img/shop/img8.webp";
+import Img6 from "../../../assets/img/shop/img9.webp";
+import Img7 from "../../../assets/img/shop/img1.webp";
+import Img8 from "../../../assets/img/shop/img2.webp";
+import Img9 from "../../../assets/img/shop/img3.webp";
 
 const Main = () => {
   return (

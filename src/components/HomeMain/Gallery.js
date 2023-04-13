@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import BGImg6 from "../../assets/img/bg/gallery-bg.png";
 import FsLightbox from "fslightbox-react";
-import Img1 from "../../assets/img/gallery/protfolio-img01.png";
-import Img2 from "../../assets/img/gallery/protfolio-img02.png";
-import Img3 from "../../assets/img/gallery/protfolio-img03.png";
-import Img4 from "../../assets/img/gallery/protfolio-img04.png";
-import Img5 from "../../assets/img/gallery/protfolio-img05.png";
-import Img6 from "../../assets/img/gallery/protfolio-img06.png";
-import Img7 from "../../assets/img/gallery/protfolio-img07.png";
-import Img8 from "../../assets/img/gallery/protfolio-img08.png";
+import Img1 from "../../assets/img/gallery/protfolio-img01.webp";
+import Img2 from "../../assets/img/gallery/protfolio-img02.webp";
+import Img3 from "../../assets/img/gallery/protfolio-img03.webp";
+import Img4 from "../../assets/img/gallery/protfolio-img04.webp";
+import Img5 from "../../assets/img/gallery/protfolio-img05.webp";
+import Img6 from "../../assets/img/gallery/protfolio-img06.webp";
+import Img7 from "../../assets/img/gallery/protfolio-img07.webp";
+import Img8 from "../../assets/img/gallery/protfolio-img08.webp";
 
 const Gallery = () => {
   const [toggler, setToggler] = useState(false);

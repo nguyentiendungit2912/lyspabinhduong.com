@@ -8,7 +8,7 @@ import './assets/css/dripicons.css'
 import './assets/css/slick.css'
 import './assets/css/meanmenu.css'
 import './assets/css/default.css'
-import './assets/css/style.css'
+import './assets/css/style.min.css'
 import './assets/css/responsive.css'
 
 export default function App() {

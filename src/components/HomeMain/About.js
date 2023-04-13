@@ -1,7 +1,7 @@
 import React from "react";
 import BGImg1 from "../../assets/img/bg/about-bg.png";
 import { Link } from "react-router-dom";
-import Img from "../../assets/img/features/about_img.png";
+import Img from "../../assets/img/features/about_img.webp";
 
 const About = () => {
   const handleBookAppointmentClick = () => {

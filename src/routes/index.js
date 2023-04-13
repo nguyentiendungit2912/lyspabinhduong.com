@@ -14,7 +14,6 @@ import Faq from '../components/Pages/Faq/Main'
 import Team from '../components/Pages/Team/Main'
 import TeamDetails from '../components/Pages/TeamDetails/Main'
 import Shop from '../components/Pages/Shop/Main'
-import ShopDetails from '../components/Pages/ShopDetails/Main'
 import Blog from '../components/BlogMain/Blog/Main'
 import BlogDetails from '../components/BlogMain/BlogDetails/Main'
 import Contact from '../components/Contact/Main'
@@ -54,7 +53,6 @@ const Routing = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/team-details" element={<TeamDetails />} />
         <Route path="/shop" element={<Shop />} />
-        <Route path="/shop-details" element={<ShopDetails />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details" element={<BlogDetails />} />
         <Route path="/contact" element={<Contact />} />

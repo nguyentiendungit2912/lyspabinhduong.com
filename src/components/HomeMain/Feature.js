@@ -1,8 +1,7 @@
-import { Link } from 'react-router-dom'
 import React from 'react'
-import Icon1 from '../../assets/img/features/banner-01.png'
-import Icon2 from '../../assets/img/features/banner-02.png'
-import Icon3 from '../../assets/img/features/banner-03.png'
+import Icon1 from '../../assets/img/features/banner-01.webp'
+import Icon2 from '../../assets/img/features/banner-02.webp'
+import Icon3 from '../../assets/img/features/banner-03.webp'
 
 const Feature = () => {
     return (
