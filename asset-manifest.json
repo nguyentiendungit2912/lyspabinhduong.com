@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.0882e04e.css",
-    "main.js": "/static/js/main.8c52bbd5.js",
+    "main.js": "/static/js/main.07a26e0d.js",
     "static/js/787.6baefbaf.chunk.js": "/static/js/787.6baefbaf.chunk.js",
     "static/media/services-img-details2.png": "/static/media/services-img-details2.20e1bc1b939dea2d577b.png",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.4f16f0a43ba2b1a29ab5.svg",
-    "static/media/slider_bg.png": "/static/media/slider_bg.d32f42b900f227d7be03.png",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.c6f75f2ce1d0863828a1.svg",
+    "static/media/slider_bg.webp": "/static/media/slider_bg.c2de7f00945debd0eb57.webp",
     "static/media/about_img.webp": "/static/media/about_img.38857a291cf5af2dbf6f.webp",
     "static/media/banner-01.webp": "/static/media/banner-01.5fa0ac911818b7387616.webp",
     "static/media/banner-03.webp": "/static/media/banner-03.273546a7b0e6b801a3b7.webp",
@@ -65,11 +65,11 @@
     "index.html": "/index.html",
     "static/media/protfolio-img08.webp": "/static/media/protfolio-img08.6a1748563e0fe3d98c2d.webp",
     "main.0882e04e.css.map": "/static/css/main.0882e04e.css.map",
-    "main.8c52bbd5.js.map": "/static/js/main.8c52bbd5.js.map",
+    "main.07a26e0d.js.map": "/static/js/main.07a26e0d.js.map",
     "787.6baefbaf.chunk.js.map": "/static/js/787.6baefbaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0882e04e.css",
-    "static/js/main.8c52bbd5.js"
+    "static/js/main.07a26e0d.js"
   ]
 }
